@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(227, 19%, 81%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  box-shadow: 3px 5px 8px 15px hsl(240, 20%, 64%);
+}
+.imge {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  top: 5px;
+}
+.menu {
+  text-align: center;
+  background-color: hsl(240, 24%, 32%);
+}
+.menu ul {
+  display: inline-flex;
+  list-style-type: none;
+  color: white;
+}
+.menu ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li:hover {
+  background-color: hsl(240, 42%, 56%);
+  border-radius: 4px;
+}
+.fa-house {
+  margin-right: 5px;
+}
+.fa-user {
+  margin-right: 5px;
+}
+.fa-mars {
+  margin-right: 5px;
+}
+.fa-graduation-cap {
+  margin-right: 4px;
+}
+.fa-right-to-bracket {
+  margin-right: 5px;
+}
+.menu-1 {
+  display: none;
+}
+.menu ul li:hover .menu-1 {
+  display: block;
+  position: absolute;
+  background-color: hsl(240, 24%, 32%);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu ul li:hover .menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu ul li:hover .menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted hsl(0, 0%, 100%);
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu ul li:hover .menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu ul li:hover .menu-1 ul li a:hover {
+  color: hsl(240, 50%, 91%);
+}
+.menu-2 {
+  display: none;
+}
+.bar:hover .menu-2 {
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 150px;
+  background: hsl(240, 24%, 32%);
+}
+.button {
+  background-color: blue;
+  border-radius: 50px;
+  color: white;
+}
