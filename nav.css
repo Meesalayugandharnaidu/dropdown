@@ -96,3 +96,14 @@ body {
   border-radius: 50px;
   color: white;
 }
+.boutton {
+  width: 120px;
+  padding: 12px;
+  border: 1px solid rgb(214, 203, 203);
+  border-radius: 50px;
+  background-color: hsl(240, 23%, 89%);
+}
+.fa-magnifying-glass {
+  text-align: center;
+  margin-left: -25px;
+}
